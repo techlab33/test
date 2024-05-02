@@ -1,0 +1,30 @@
+name: glassfy_purchases_app_example_flutter
+description: A new Flutter project.
+publish_to: 'none' 
+version: 1.0.0+3
+environment:
+  sdk: '>=2.18.6 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+
+  glassfy_flutter: ^1.3.6
+
+  provider: ^6.0.5 
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  flutter_launcher_icons: ^0.11.0
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/app_logo.png"
+
+flutter:
+  uses-material-design: true
+
